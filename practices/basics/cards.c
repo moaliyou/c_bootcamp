@@ -6,8 +6,8 @@ int main(int argc, char const *argv[])
     
     char card_name[3];
 
-    printf("Enter the card name: ");
-    scanf("%c", card_name);
+    puts("Enter the card name: ");
+    scanf("%2s", card_name);
 
     int val = 0;
 
