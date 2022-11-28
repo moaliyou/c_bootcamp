@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 
     int sum = num_1 + num_2;
 
-    printf("The sum is %d\n", sum);
+    printf("Sum is %d\n", sum);
 
     return 0;
 }
