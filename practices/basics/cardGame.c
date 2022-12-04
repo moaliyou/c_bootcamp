@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     char card_name[3];
     int counter = 0;
 
-    while (card_name != 'X' || card_name != 'x')
+    while (card_name[0] != 'X')
     {
         puts("Enter the card name: ");
         scanf("%2s", card_name);
