@@ -1,13 +1,3 @@
-#include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-char characters;
-char numbers;
 
 numbers = 48;
 while (numbers < 58)
